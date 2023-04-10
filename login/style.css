@@ -1,0 +1,133 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* header h3 {
+  margin: 32px 0;
+  font-weight: bold;
+} */
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img {
+  flex-shrink: -0;
+  background-image: url('img/img.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* height: 1023px; */
+  width: 54%;
+  min-height: 667px;
+}
+
+.form-field {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 56px 123px;
+}
+
+.form-field h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -0.015em;
+  margin-bottom: 12px;
+}
+
+.form-field p {
+  color: #B3B4B3;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: -0.01em;
+}
+
+.input-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  border-bottom: 2px solid #D3D4D8;
+  margin: 40px 0;
+}
+
+.input-box label {
+  position: absolute;
+  left: 2px;
+  transform: translateY(-50%);
+  font-size: 1rem;
+  color: #676D79;
+  font-weight: 400;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label {
+  top: -5px;
+}
+
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  color: #333;
+  font-size: 1.3rem;
+  padding: 0 35px 0 5px;
+}
+
+/* .input-box .icon {
+  position: absolute;
+  right: 8px;
+  font-size: 1.2rem;
+  color: #162938;
+  line-height: 57px;
+} */
+
+.btn {
+  width: 100%;
+  height: 45px;
+  border: none;
+  background: #52694F;
+  color: #EEF2EE;
+  border-radius:8px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 32px;
+}
+
+.btn-sign-up {
+  width: 100%;
+  height: 45px;
+  border: 1px solid #D3D4D6;
+  background-color: #fff;
+  color: #101510;
+  border-radius:8px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 24px;
+  background: url('img/logos_google-icon.png') no-repeat ;
+}
+
+#login {
+  display: flex;
+  justify-content: center;
+}
+
+.last{
+  position: absolute;
+  width: 268px;
+  height: 17px;
+  left: 40px;
+  top: 667px;
+}
