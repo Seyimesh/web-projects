@@ -1,2 +1,2 @@
 # web-projects
-Different learning projects
+Different short projects on Html, Css and Js
